@@ -11,25 +11,9 @@
   "n c";
 }
 
-.header {
-  grid-area: h;
-  background-color: green;
-}
 
-.nav {
-  grid-area: n;
-  background-color: red;
-}
 
-.content {
-  grid-area: c;
-  background-color: blue;
-}
 
-.header img {
-  width: 50px;
-}
 
-.content img {
-  width: 100%;
-}
+
+

@@ -1,0 +1,13 @@
+.content {
+    grid-area: c;
+    background-color: blue;
+  }
+
+.content .wallpapper {
+    width: 100%;
+  }
+  
+  .content .profile-photo {
+    width: 50px;
+  
+  }

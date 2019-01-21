@@ -1,13 +1,16 @@
 import React from 'react';
+import './Profile.css';
 
 const Profile = () => {
   return (
     <div className="content">
-      <div>
-        <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+      <div className="wallpaper">
+        <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350" />
       </div>
       <div>
-        <div>my photo</div>
+        <div className="profile-photo">
+          <img src="https://www.factzoo.com/sites/all/img/birds/owls/peeka-boo-boreal.jpg" alt="owl" />
+        </div>
         ava + description
       </div>
       <div>posts
